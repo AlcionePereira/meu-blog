@@ -1,0 +1,90 @@
+body {
+    background-image: linear-gradient(to right,#c2bc0096, #cc7a71b7, #ed8c1669);
+    font-family: cursive;
+    font-size: 20;
+    text-align: center;
+}
+h1 {
+    color: chocolate;
+}
+    img {
+        width: 200px;
+        border-radius: 50%;
+    }
+    .container {
+           display: flex;
+    }
+    
+    ol {
+        text-align: justify;
+        width: 200px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-weight: bolder;
+    }
+    h{
+        text-align: right;
+    }
+    h2#especial {
+        text-align: justify;
+        background-color: white;
+        width: 300px;
+        margin: 20px;
+        padding: 10px;
+        border-radius: 5px;
+        box-shadow: 5px 5px 5px;
+        h2::first-line
+        
+        
+        }
+
+        h2::h2::first-letter{
+           color: crimson;
+           font-family: Verdana, Geneva, Tahoma, sans-serif;
+           font-size: 50px;
+        }
+        h3.hobbie {
+            border-radius: auto;
+            text-align:center;
+        }
+        p.coração {
+            left: auto;
+        }
+        p.esconder:hover {
+            color: darkblue;
+            font-size: 25px; 
+        }
+        div > p.esconder {
+            display:none;
+        }
+        div:hover > p.esconder {
+            display:block;
+        }
+        h2.musica {
+         text-align: left;
+        }
+
+        ul.listamusica {
+          text-align: left;
+        }
+        lema {
+            background-color: white;
+            width: 250px;
+            text-align: left;
+            border-radius: 20px;
+            font-family: 'Courier New', Courier, monospace;
+            padding: 25px;
+            box-shadow: 5px 5px 5px;
+        }
+        h2.text {
+            text-align: left;
+            background-color: white;
+            width: 250px;
+            font-family: cursive;
+            padding: 25px;
+            border-radius: 20px;
+            box-shadow: 0 0 0  10px red;
+        }
+        p.recado {
+            font-size: 24px;
+        }
+    
